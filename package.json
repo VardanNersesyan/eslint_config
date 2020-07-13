@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint" : "eslint . --fix"
   },
   "keywords": [],
   "author": "",
@@ -24,9 +25,9 @@
     }
   },
   "lint-staged": {
-    "./src/*.{js,jsx,ts,tsx}": [
+    "./*.{js,jsx,ts,tsx}": [
       "npx prettier --write",
-      "eslint src/*.js --fix-dry-run"
+      "eslint . --fix-dry-run"
     ]
   }
 }
