@@ -1,3 +1,3 @@
 const test = undefined;
 
-const aaa = 'ssss'
+const aaa='ssss';
