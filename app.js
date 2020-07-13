@@ -1,4 +1,4 @@
-const test;
+const test = undefined
 
 
 
