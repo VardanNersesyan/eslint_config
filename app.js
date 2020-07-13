@@ -1,3 +1,5 @@
-const test = undefined;
+const test;
 
-const aaa='ssss';
+
+
+    const aaa='ssss'
