@@ -21,8 +21,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint",
-      "pre-push": "git add . && git commit -m 'eslint fix' && git push origin branch_name"
+      "pre-commit": "npm run lint"
     }
   }
 }
