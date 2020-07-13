@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint" : "eslint . --fix || true"
+    "lint": "eslint . --fix || true"
   },
   "keywords": [],
   "author": "",
@@ -21,7 +21,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "eslint src --fix"
+      "pre-commit": "npm run lint"
     }
   }
 }
